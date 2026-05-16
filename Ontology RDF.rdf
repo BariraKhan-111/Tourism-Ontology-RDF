@@ -1221,6 +1221,7 @@ BSCS51F23S031 (Mishal)</dc:creator>
         <schema1:containsPlace rdf:resource="https://tourism-onto.org/ont#lhrmuseum"/>
         <schema1:containsPlace rdf:resource="https://tourism-onto.org/ont#lhrzoo"/>
         <rdfs:comment>Lahore</rdfs:comment>
+        <rdfs:label>LahoreCity</rdfs:label>
     </NamedIndividual>
     
 
@@ -1285,6 +1286,7 @@ BSCS51F23S031 (Mishal)</dc:creator>
         <schema1:givenName>Ahmed Raza</schema1:givenName>
         <tour:nationality>Pakistani</tour:nationality>
         <rdfs:comment>Pearl Continent Hotel</rdfs:comment>
+        <rdfs:label>Ahmad</rdfs:label>
     </NamedIndividual>
     
 
@@ -1306,6 +1308,7 @@ BSCS51F23S031 (Mishal)</dc:creator>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ENVO_03501349"/>
         <tour:requiresTicket rdf:resource="https://tourism-onto.org/ont#air-ticket"/>
         <rdfs:comment>AirBlue</rdfs:comment>
+        <rdfs:label>AirBlue</rdfs:label>
     </NamedIndividual>
     
 
@@ -1318,6 +1321,7 @@ BSCS51F23S031 (Mishal)</dc:creator>
         <schema1:givenName>Ali Amjad</schema1:givenName>
         <tour:language>Urdu , English, Punjabi</tour:language>
         <rdfs:comment>Ali</rdfs:comment>
+        <rdfs:label>Ali</rdfs:label>
     </NamedIndividual>
     
 
@@ -1329,6 +1333,7 @@ BSCS51F23S031 (Mishal)</dc:creator>
         <tour:isPolicyOf rdf:resource="https://tourism-onto.org/ont#trails"/>
         <schema1:description>Standard AlphaTrails Operating Policy</schema1:description>
         <rdfs:comment>Alpha Trails Policy</rdfs:comment>
+        <rdfs:label>AlphaPolicy</rdfs:label>
     </NamedIndividual>
     
 
@@ -1344,6 +1349,7 @@ BSCS51F23S031 (Mishal)</dc:creator>
         <schema1:givenName>Ayesha Noor</schema1:givenName>
         <tour:nationality>Pakistani</tour:nationality>
         <rdfs:comment>Ayesha</rdfs:comment>
+        <rdfs:label>Ayesha</rdfs:label>
     </NamedIndividual>
     
 
@@ -1359,6 +1365,7 @@ BSCS51F23S031 (Mishal)</dc:creator>
         <schema1:openingHours rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-03T10:00:00</schema1:openingHours>
         <schema1:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-03T10:00:00</schema1:startDate>
         <rdfs:comment>Basant Festival</rdfs:comment>
+        <rdfs:label>Basant</rdfs:label>
     </NamedIndividual>
     
 
@@ -1374,6 +1381,7 @@ BSCS51F23S031 (Mishal)</dc:creator>
         <schema1:givenName>Bilal Abbas</schema1:givenName>
         <tour:nationality>Pakistani</tour:nationality>
         <rdfs:comment>Bilal</rdfs:comment>
+        <rdfs:label>Bilal</rdfs:label>
     </NamedIndividual>
     
 
@@ -1394,6 +1402,7 @@ BSCS51F23S031 (Mishal)</dc:creator>
     <NamedIndividual rdf:about="https://tourism-onto.org/ont#clifton">
         <rdf:type rdf:resource="http://schema.org/Beach"/>
         <rdfs:comment>Clifton</rdfs:comment>
+        <rdfs:label>CliftonBeach</rdfs:label>
     </NamedIndividual>
     
 
@@ -1403,6 +1412,7 @@ BSCS51F23S031 (Mishal)</dc:creator>
     <NamedIndividual rdf:about="https://tourism-onto.org/ont#cruise">
         <rdf:type rdf:resource="http://snomed.info/id/224673002"/>
         <rdfs:comment>Oceanic Cruise</rdfs:comment>
+        <rdfs:label>Cruise</rdfs:label>
     </NamedIndividual>
     
 
@@ -1412,6 +1422,7 @@ BSCS51F23S031 (Mishal)</dc:creator>
     <NamedIndividual rdf:about="https://tourism-onto.org/ont#daewoo">
         <rdf:type rdf:resource="http://schema.org/BusOrCoach"/>
         <rdfs:comment>Daewoo Express</rdfs:comment>
+        <rdfs:label>Daewoo</rdfs:label>
     </NamedIndividual>
     
 
@@ -1425,6 +1436,7 @@ BSCS51F23S031 (Mishal)</dc:creator>
         <schema1:name>Cultural Folk Dance Show</schema1:name>
         <tour:duration>2 hrs</tour:duration>
         <rdfs:comment>Folk Dance Show</rdfs:comment>
+        <rdfs:label>FolkDance</rdfs:label>
     </NamedIndividual>
     
 
@@ -1434,6 +1446,7 @@ BSCS51F23S031 (Mishal)</dc:creator>
     <NamedIndividual rdf:about="https://tourism-onto.org/ont#green">
         <rdf:type rdf:resource="http://snomed.info/id/257611004"/>
         <rdfs:comment>Green Farmhouse</rdfs:comment>
+        <rdfs:label>Green</rdfs:label>
     </NamedIndividual>
     
 
@@ -1449,6 +1462,7 @@ BSCS51F23S031 (Mishal)</dc:creator>
         <schema1:requiredMinAge rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18</schema1:requiredMinAge>
         <schema1:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-06T08:00:00</schema1:startDate>
         <rdfs:comment>Karachi Scuba Diving Center</rdfs:comment>
+        <rdfs:label>KarachiScuba</rdfs:label>
     </NamedIndividual>
     
 
@@ -1464,6 +1478,7 @@ BSCS51F23S031 (Mishal)</dc:creator>
         <schema1:requiredMinAge rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16</schema1:requiredMinAge>
         <tour:duration>3 Hours</tour:duration>
         <rdfs:comment>Khanpur Dam Paragliding</rdfs:comment>
+        <rdfs:label>Khanpur</rdfs:label>
     </NamedIndividual>
     
 
@@ -1478,6 +1493,7 @@ BSCS51F23S031 (Mishal)</dc:creator>
         <schema1:numberOfRooms rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</schema1:numberOfRooms>
         <schema1:starRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</schema1:starRating>
         <rdfs:comment>Khoj Resort</rdfs:comment>
+        <rdfs:label>KhojResort</rdfs:label>
     </NamedIndividual>
     
 
@@ -1493,6 +1509,7 @@ BSCS51F23S031 (Mishal)</dc:creator>
         <schema1:givenName>Laiba Elahi</schema1:givenName>
         <tour:nationality>Pakistani</tour:nationality>
         <rdfs:comment>Laiba</rdfs:comment>
+        <rdfs:label>Laiba</rdfs:label>
     </NamedIndividual>
     
 
@@ -1502,6 +1519,7 @@ BSCS51F23S031 (Mishal)</dc:creator>
     <NamedIndividual rdf:about="https://tourism-onto.org/ont#lhrfest">
         <rdf:type rdf:resource="http://schema.org/FoodEvent"/>
         <rdfs:comment>Lahore Food Fest</rdfs:comment>
+        <rdfs:label>LahoreFest</rdfs:label>
     </NamedIndividual>
     
 
@@ -1511,6 +1529,7 @@ BSCS51F23S031 (Mishal)</dc:creator>
     <NamedIndividual rdf:about="https://tourism-onto.org/ont#lhrhostel">
         <rdf:type rdf:resource="http://schema.org/Hostel"/>
         <rdfs:comment>Lahore Hostel</rdfs:comment>
+        <rdfs:label>LahoreHostel</rdfs:label>
     </NamedIndividual>
     
 
@@ -1524,6 +1543,7 @@ BSCS51F23S031 (Mishal)</dc:creator>
         <schema1:name>Lahore Museum</schema1:name>
         <schema1:openingHours>09:00-17:00</schema1:openingHours>
         <rdfs:comment>Lahore Museum</rdfs:comment>
+        <rdfs:label>LahoreMuseum</rdfs:label>
     </NamedIndividual>
     
 
@@ -1533,6 +1553,7 @@ BSCS51F23S031 (Mishal)</dc:creator>
     <NamedIndividual rdf:about="https://tourism-onto.org/ont#lhrzoo">
         <rdf:type rdf:resource="http://schema.org/Zoo"/>
         <rdfs:comment>Lahore Zoo</rdfs:comment>
+        <rdfs:label>LahoreZoo</rdfs:label>
     </NamedIndividual>
     
 
@@ -1546,7 +1567,7 @@ BSCS51F23S031 (Mishal)</dc:creator>
         <schema1:name>Margalla Mountain Trek</schema1:name>
         <tour:duration>12 hrs</tour:duration>
         <rdfs:comment>Margalla Hills</rdfs:comment>
-        <rdfs:label>Margalla Hiking Trek</rdfs:label>
+        <rdfs:label>MargallaTrek</rdfs:label>
     </NamedIndividual>
     
 
@@ -1556,6 +1577,7 @@ BSCS51F23S031 (Mishal)</dc:creator>
     <NamedIndividual rdf:about="https://tourism-onto.org/ont#marinelife">
         <rdf:type rdf:resource="http://schema.org/Aquarium"/>
         <rdfs:comment>Marine Life Gallery</rdfs:comment>
+        <rdfs:label>MarineLife</rdfs:label>
     </NamedIndividual>
     
 
@@ -1565,6 +1587,7 @@ BSCS51F23S031 (Mishal)</dc:creator>
     <NamedIndividual rdf:about="https://tourism-onto.org/ont#masjid">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GSSO_008167"/>
         <rdfs:comment>Badshahi Masjid</rdfs:comment>
+        <rdfs:label>Masjid</rdfs:label>
     </NamedIndividual>
     
 
@@ -1595,6 +1618,7 @@ BSCS51F23S031 (Mishal)</dc:creator>
     <NamedIndividual rdf:about="https://tourism-onto.org/ont#pakrailway">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ENVO_03501107"/>
         <rdfs:comment>Pakistan Railway</rdfs:comment>
+        <rdfs:label>PakRailway</rdfs:label>
     </NamedIndividual>
     
 
@@ -1609,6 +1633,7 @@ BSCS51F23S031 (Mishal)</dc:creator>
         <schema1:numberOfRooms rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">350</schema1:numberOfRooms>
         <schema1:starRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</schema1:starRating>
         <rdfs:comment>PC Hotel</rdfs:comment>
+        <rdfs:label>PCHotel</rdfs:label>
     </NamedIndividual>
     
 
@@ -1664,6 +1689,7 @@ BSCS51F23S031 (Mishal)</dc:creator>
         <schema1:givenName>Rao Talha</schema1:givenName>
         <tour:nationality>Pakistani</tour:nationality>
         <rdfs:comment>Rao Talha</rdfs:comment>
+        <rdfs:label>Rao</rdfs:label>
     </NamedIndividual>
     
 
@@ -1692,6 +1718,7 @@ BSCS51F23S031 (Mishal)</dc:creator>
     <NamedIndividual rdf:about="https://tourism-onto.org/ont#royalspeak">
         <rdf:type rdf:resource="http://schema.org/Hotel"/>
         <rdfs:comment>The Royal Peaks Hotel</rdfs:comment>
+        <rdfs:label>RoyalsPeakHotel</rdfs:label>
     </NamedIndividual>
     
 
@@ -1705,6 +1732,7 @@ BSCS51F23S031 (Mishal)</dc:creator>
         <schema1:givenName>Sara Ahsan</schema1:givenName>
         <tour:language>English, Urdu,German</tour:language>
         <rdfs:comment>Sara</rdfs:comment>
+        <rdfs:label>Sara</rdfs:label>
     </NamedIndividual>
     
 
@@ -1714,6 +1742,7 @@ BSCS51F23S031 (Mishal)</dc:creator>
     <NamedIndividual rdf:about="https://tourism-onto.org/ont#skydive">
         <rdf:type rdf:resource="http://snomed.info/id/28895007"/>
         <rdfs:comment>Skydive Pakistan</rdfs:comment>
+        <rdfs:label>SkyDive</rdfs:label>
     </NamedIndividual>
     
 
@@ -1723,6 +1752,7 @@ BSCS51F23S031 (Mishal)</dc:creator>
     <NamedIndividual rdf:about="https://tourism-onto.org/ont#suzopark">
         <rdf:type rdf:resource="http://snomed.info/id/20461001"/>
         <rdfs:comment>Suzo Water Park</rdfs:comment>
+        <rdfs:label>SuzoPark</rdfs:label>
     </NamedIndividual>
     
 
@@ -1732,6 +1762,7 @@ BSCS51F23S031 (Mishal)</dc:creator>
     <NamedIndividual rdf:about="https://tourism-onto.org/ont#top">
         <rdf:type rdf:resource="http://schema.org/Mountain"/>
         <rdfs:comment>Mushk Puri Top</rdfs:comment>
+        <rdfs:label>MountainTop</rdfs:label>
     </NamedIndividual>
     
 
@@ -1766,6 +1797,7 @@ BSCS51F23S031 (Mishal)</dc:creator>
         <schema1:givenName>Umer Farooq</schema1:givenName>
         <tour:nationality>Pakistani</tour:nationality>
         <rdfs:comment>Umer Farooq</rdfs:comment>
+        <rdfs:label>Umer</rdfs:label>
     </NamedIndividual>
     
 
@@ -1776,6 +1808,7 @@ BSCS51F23S031 (Mishal)</dc:creator>
         <rdf:type rdf:resource="http://schema.org/Mountain"/>
         <schema1:name>Neelum Valley</schema1:name>
         <rdfs:comment>Neelam Valley</rdfs:comment>
+        <rdfs:label>NeelumValley</rdfs:label>
     </NamedIndividual>
     <rdf:Description>
         <tour:hasEmployee rdf:resource="https://tourism-onto.org/ont#sara"/>
