@@ -1187,6 +1187,167 @@ BSCS51F23S031 (Mishal)</dc:creator>
     
 
 
+    <!-- https://tourism-onto.org/ont#AgencyRating -->
+
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#AgencyRating">
+        <rdf:type rdf:resource="http://schema.org/Rating"/>
+        <schema1:ratingValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</schema1:ratingValue>
+        <rdfs:comment>Alpha Trails Ratings</rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- https://tourism-onto.org/ont#Ahmad -->
+
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#Ahmad">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48440"/>
+        <tour:guidedBy rdf:resource="https://tourism-onto.org/ont#Ali"/>
+        <tour:hasAccomodation rdf:resource="https://tourism-onto.org/ont#RoyalsPeakHotel"/>
+        <tour:memberOf rdf:resource="https://tourism-onto.org/ont#GroupAlpha"/>
+        <tour:participatesIn rdf:resource="https://tourism-onto.org/ont#NeelumParagliding"/>
+        <schema1:givenName>Ahmed Raza</schema1:givenName>
+        <tour:nationality>Pakistani</tour:nationality>
+        <rdfs:comment>Pearl Continent Hotel</rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- https://tourism-onto.org/ont#AirBlue -->
+
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#AirBlue">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ENVO_03501349"/>
+        <tour:requiresTicket rdf:resource="https://tourism-onto.org/ont#AirTicket"/>
+        <rdfs:comment>AirBlue</rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- https://tourism-onto.org/ont#AirTicket -->
+
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#AirTicket">
+        <rdf:type rdf:resource="http://schema.org/Ticket"/>
+        <schema1:price rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25000</schema1:price>
+        <rdfs:comment>Air Ticket</rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- https://tourism-onto.org/ont#Ali -->
+
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#Ali">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OCCO_39701100"/>
+        <tour:worksFor rdf:resource="https://tourism-onto.org/ont#AlphaTrailsAgency"/>
+        <schema1:givenName>Ali Amjad</schema1:givenName>
+        <tour:language>Urdu , English, Punjabi</tour:language>
+        <rdfs:comment>Ali</rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- https://tourism-onto.org/ont#AlphaPolicy -->
+
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#AlphaPolicy">
+        <rdf:type rdf:resource="http://purl.org/dc/terms/Policy"/>
+        <tour:isPolicyOf rdf:resource="https://tourism-onto.org/ont#AlphaTrailsAgency"/>
+        <schema1:description>Standard AlphaTrails Operating Policy</schema1:description>
+        <rdfs:comment>Alpha Trails Policy</rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- https://tourism-onto.org/ont#AlphaTrailsAgency -->
+
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#AlphaTrailsAgency">
+        <rdf:type rdf:resource="http://schema.org/TravelAgency"/>
+        <schema1:makesOffer rdf:resource="https://tourism-onto.org/ont#Khanpur"/>
+        <schema1:makesOffer rdf:resource="https://tourism-onto.org/ont#LahoreFest"/>
+        <schema1:makesOffer rdf:resource="https://tourism-onto.org/ont#MargallaTrek"/>
+        <tour:hasEmployee rdf:resource="https://tourism-onto.org/ont#Ali"/>
+        <tour:hasEmployee rdf:resource="https://tourism-onto.org/ont#Sara"/>
+        <tour:hasRating rdf:resource="https://tourism-onto.org/ont#AgencyRating"/>
+        <schema1:companyRegistration>REG-PKT-2018-00421</schema1:companyRegistration>
+        <schema1:description>Pakistan&apos;s leading adventure and cultural tour operator</schema1:description>
+        <schema1:email xml:lang="alphatrails.pk">info</schema1:email>
+        <schema1:name>AlphaTrails Travel Agency</schema1:name>
+        <schema1:telephone>+92-42-1234567</schema1:telephone>
+        <rdfs:comment>Alpha Trails</rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- https://tourism-onto.org/ont#Ayesha -->
+
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#Ayesha">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48440"/>
+        <tour:guidedBy rdf:resource="https://tourism-onto.org/ont#Ali"/>
+        <tour:hasAccomodation rdf:resource="https://tourism-onto.org/ont#RoyalsPeakHotel"/>
+        <tour:memberOf rdf:resource="https://tourism-onto.org/ont#GroupAlpha"/>
+        <tour:participatesIn rdf:resource="https://tourism-onto.org/ont#NeelumParagliding"/>
+        <schema1:givenName>Ayesha Noor</schema1:givenName>
+        <tour:nationality>Pakistani</tour:nationality>
+        <rdfs:comment>Ayesha</rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- https://tourism-onto.org/ont#Basant -->
+
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#Basant">
+        <rdf:type rdf:resource="http://schema.org/Festival"/>
+        <tour:organizedBy rdf:resource="https://tourism-onto.org/ont#CulturalEventsOrganization"/>
+        <tour:takesPlaceIn rdf:resource="https://tourism-onto.org/ont#LahoreCity"/>
+        <schema1:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1005</schema1:identifier>
+        <schema1:isAccessibleForFree>yes</schema1:isAccessibleForFree>
+        <schema1:openingHours rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-03T10:00:00</schema1:openingHours>
+        <schema1:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-03T10:00:00</schema1:startDate>
+        <rdfs:comment>Basant Festival</rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- https://tourism-onto.org/ont#Bilal -->
+
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#Bilal">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48440"/>
+        <tour:guidedBy rdf:resource="https://tourism-onto.org/ont#Ali"/>
+        <tour:hasAccomodation rdf:resource="https://tourism-onto.org/ont#RoyalsPeakHotel"/>
+        <tour:memberOf rdf:resource="https://tourism-onto.org/ont#GroupAlpha"/>
+        <tour:participatesIn rdf:resource="https://tourism-onto.org/ont#NeelumParagliding"/>
+        <schema1:givenName>Bilal Abbas</schema1:givenName>
+        <tour:nationality>Pakistani</tour:nationality>
+        <rdfs:comment>Bilal</rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- https://tourism-onto.org/ont#BusTicket -->
+
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#BusTicket">
+        <rdf:type rdf:resource="http://schema.org/Ticket"/>
+        <schema1:price rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">540</schema1:price>
+        <rdfs:comment>Bus Ticket</rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- https://tourism-onto.org/ont#CliftonBeach -->
+
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#CliftonBeach">
+        <rdf:type rdf:resource="http://schema.org/Beach"/>
+        <rdfs:comment>Clifton</rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- https://tourism-onto.org/ont#Cruise -->
+
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#Cruise">
+        <rdf:type rdf:resource="http://snomed.info/id/224673002"/>
+        <rdfs:comment>Oceanic Cruise</rdfs:comment>
+    </NamedIndividual>
+    
+
+
     <!-- https://tourism-onto.org/ont#CulturalEventsOrganization -->
 
     <NamedIndividual rdf:about="https://tourism-onto.org/ont#CulturalEventsOrganization">
@@ -1196,32 +1357,192 @@ BSCS51F23S031 (Mishal)</dc:creator>
     
 
 
+    <!-- https://tourism-onto.org/ont#Daewoo -->
+
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#Daewoo">
+        <rdf:type rdf:resource="http://schema.org/BusOrCoach"/>
+        <rdfs:comment>Daewoo Express</rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- https://tourism-onto.org/ont#FolkDance -->
+
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#FolkDance">
+        <rdf:type rdf:resource="http://schema.org/PerformingArtsEvent"/>
+        <tour:organizedBy rdf:resource="https://tourism-onto.org/ont#CulturalEventsOrganization"/>
+        <tour:takesPlaceIn rdf:resource="https://tourism-onto.org/ont#LahoreCity"/>
+        <schema1:name>Cultural Folk Dance Show</schema1:name>
+        <tour:duration>2 hrs</tour:duration>
+        <rdfs:comment>Folk Dance Show</rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- https://tourism-onto.org/ont#Green -->
+
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#Green">
+        <rdf:type rdf:resource="http://snomed.info/id/257611004"/>
+        <rdfs:comment>Green Farmhouse</rdfs:comment>
+    </NamedIndividual>
+    
+
+
     <!-- https://tourism-onto.org/ont#GroupAlpha -->
 
     <NamedIndividual rdf:about="https://tourism-onto.org/ont#GroupAlpha">
         <rdf:type rdf:resource="https://tourism-onto.org/ont#TouristGroup"/>
-        <tour:hasAccomodation rdf:resource="https://tourism-onto.org/ont#valley"/>
-        <tour:hasMembers rdf:resource="https://tourism-onto.org/ont#ahmad"/>
-        <tour:hasMembers rdf:resource="https://tourism-onto.org/ont#ayesha"/>
-        <tour:hasMembers rdf:resource="https://tourism-onto.org/ont#bilal"/>
-        <tour:hasMembers rdf:resource="https://tourism-onto.org/ont#laiba"/>
-        <tour:hasMembers rdf:resource="https://tourism-onto.org/ont#rao"/>
-        <tour:hasTransport rdf:resource="https://tourism-onto.org/ont#airblue"/>
+        <tour:hasAccomodation rdf:resource="https://tourism-onto.org/ont#NeelumValley"/>
+        <tour:hasMembers rdf:resource="https://tourism-onto.org/ont#Ahmad"/>
+        <tour:hasMembers rdf:resource="https://tourism-onto.org/ont#Ayesha"/>
+        <tour:hasMembers rdf:resource="https://tourism-onto.org/ont#Bilal"/>
+        <tour:hasMembers rdf:resource="https://tourism-onto.org/ont#Laiba"/>
+        <tour:hasMembers rdf:resource="https://tourism-onto.org/ont#Rao"/>
+        <tour:hasTransport rdf:resource="https://tourism-onto.org/ont#AirBlue"/>
         <schema1:name>Group Alpha</schema1:name>
         <rdfs:comment>Alpha Group</rdfs:comment>
     </NamedIndividual>
     
 
 
-    <!-- https://tourism-onto.org/ont#LHR -->
+    <!-- https://tourism-onto.org/ont#KarachiScuba -->
 
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#LHR">
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#KarachiScuba">
+        <rdf:type rdf:resource="http://snomed.info/id/75335000"/>
+        <tour:organizedBy rdf:resource="https://tourism-onto.org/ont#AlphaTrailsAgency"/>
+        <tour:takesPlaceIn rdf:resource="https://tourism-onto.org/ont#KarachiScuba"/>
+        <schema1:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1004</schema1:identifier>
+        <schema1:name>Neelum Lake Scuba Diving</schema1:name>
+        <schema1:requiredMinAge rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18</schema1:requiredMinAge>
+        <schema1:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-06T08:00:00</schema1:startDate>
+        <rdfs:comment>Karachi Scuba Diving Center</rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- https://tourism-onto.org/ont#Khanpur -->
+
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#Khanpur">
+        <rdf:type rdf:resource="http://snomed.info/id/102395001"/>
+        <tour:organizedBy rdf:resource="https://tourism-onto.org/ont#AlphaTrailsAgency"/>
+        <tour:requiresTicket rdf:resource="https://tourism-onto.org/ont#TicketPG"/>
+        <tour:takesPlaceIn rdf:resource="https://tourism-onto.org/ont#Khanpur"/>
+        <schema1:name>Aerial Joy Ride</schema1:name>
+        <schema1:requiredMinAge rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16</schema1:requiredMinAge>
+        <tour:duration>3 Hours</tour:duration>
+        <rdfs:comment>Khanpur Dam Paragliding</rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- https://tourism-onto.org/ont#KhojResort -->
+
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#KhojResort">
+        <rdf:type rdf:resource="http://schema.org/Resort"/>
+        <tour:hasRating rdf:resource="https://tourism-onto.org/ont#ResortRating"/>
+        <tour:hasReview rdf:resource="https://tourism-onto.org/ont#ResortReview"/>
+        <schema1:name>Khoj Bliss Resort</schema1:name>
+        <schema1:numberOfRooms rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</schema1:numberOfRooms>
+        <schema1:starRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</schema1:starRating>
+        <rdfs:comment>Khoj Resort</rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- https://tourism-onto.org/ont#LahoreCity -->
+
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#LahoreCity">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GSSO_011080"/>
-        <schema1:containsPlace rdf:resource="https://tourism-onto.org/ont#lhrfest"/>
-        <schema1:containsPlace rdf:resource="https://tourism-onto.org/ont#lhrmuseum"/>
-        <schema1:containsPlace rdf:resource="https://tourism-onto.org/ont#lhrzoo"/>
+        <schema1:containsPlace rdf:resource="https://tourism-onto.org/ont#LahoreFest"/>
+        <schema1:containsPlace rdf:resource="https://tourism-onto.org/ont#LahoreMuseum"/>
+        <schema1:containsPlace rdf:resource="https://tourism-onto.org/ont#LahoreZoo"/>
         <rdfs:comment>Lahore</rdfs:comment>
-        <rdfs:label>LahoreCity</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://tourism-onto.org/ont#LahoreFest -->
+
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#LahoreFest">
+        <rdf:type rdf:resource="http://schema.org/FoodEvent"/>
+        <rdfs:comment>Lahore Food Fest</rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- https://tourism-onto.org/ont#LahoreHostel -->
+
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#LahoreHostel">
+        <rdf:type rdf:resource="http://schema.org/Hostel"/>
+        <rdfs:comment>Lahore Hostel</rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- https://tourism-onto.org/ont#LahoreMuseum -->
+
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#LahoreMuseum">
+        <rdf:type rdf:resource="http://schema.org/Museum"/>
+        <tour:partOf rdf:resource="https://tourism-onto.org/ont#LahoreCity"/>
+        <tour:requiresTicket rdf:resource="https://tourism-onto.org/ont#MuseumTicket"/>
+        <schema1:name>Lahore Museum</schema1:name>
+        <schema1:openingHours>09:00-17:00</schema1:openingHours>
+        <rdfs:comment>Lahore Museum</rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- https://tourism-onto.org/ont#LahoreZoo -->
+
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#LahoreZoo">
+        <rdf:type rdf:resource="http://schema.org/Zoo"/>
+        <rdfs:comment>Lahore Zoo</rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- https://tourism-onto.org/ont#Laiba -->
+
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#Laiba">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48440"/>
+        <tour:guidedBy rdf:resource="https://tourism-onto.org/ont#Ali"/>
+        <tour:hasAccomodation rdf:resource="https://tourism-onto.org/ont#RoyalsPeakHotel"/>
+        <tour:memberOf rdf:resource="https://tourism-onto.org/ont#GroupAlpha"/>
+        <tour:participatesIn rdf:resource="https://tourism-onto.org/ont#NeelumParagliding"/>
+        <schema1:givenName>Laiba Elahi</schema1:givenName>
+        <tour:nationality>Pakistani</tour:nationality>
+        <rdfs:comment>Laiba</rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- https://tourism-onto.org/ont#MargallaTrek -->
+
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#MargallaTrek">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C180667"/>
+        <tour:organizedBy rdf:resource="https://tourism-onto.org/ont#AlphaTrailsAgency"/>
+        <tour:takesPlaceIn rdf:resource="https://tourism-onto.org/ont#MargallaTrek"/>
+        <schema1:name>Margalla Mountain Trek</schema1:name>
+        <tour:duration>12 hrs</tour:duration>
+        <rdfs:comment>Margalla Hills</rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- https://tourism-onto.org/ont#MarineLife -->
+
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#MarineLife">
+        <rdf:type rdf:resource="http://schema.org/Aquarium"/>
+        <rdfs:comment>Marine Life Gallery</rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- https://tourism-onto.org/ont#Masjid -->
+
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#Masjid">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GSSO_008167"/>
+        <rdfs:comment>Badshahi Masjid</rdfs:comment>
     </NamedIndividual>
     
 
@@ -1230,9 +1551,9 @@ BSCS51F23S031 (Mishal)</dc:creator>
 
     <NamedIndividual rdf:about="https://tourism-onto.org/ont#Minha">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48440"/>
-        <tour:guidedBy rdf:resource="https://tourism-onto.org/ont#ali"/>
-        <tour:participatesIn rdf:resource="https://tourism-onto.org/ont#khanpur"/>
-        <tour:participatesIn rdf:resource="https://tourism-onto.org/ont#margalla"/>
+        <tour:guidedBy rdf:resource="https://tourism-onto.org/ont#Ali"/>
+        <tour:participatesIn rdf:resource="https://tourism-onto.org/ont#Khanpur"/>
+        <tour:participatesIn rdf:resource="https://tourism-onto.org/ont#MargallaTrek"/>
         <schema1:givenName>Minha Ahmad</schema1:givenName>
         <tour:nationality>Pakistani</tour:nationality>
         <rdfs:comment>Minha Ahmad</rdfs:comment>
@@ -1240,587 +1561,218 @@ BSCS51F23S031 (Mishal)</dc:creator>
     
 
 
-    <!-- https://tourism-onto.org/ont#Res_01 -->
+    <!-- https://tourism-onto.org/ont#MountainTop -->
 
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#Res_01">
-        <rdf:type rdf:resource="http://schema.org/Reservation"/>
-        <tour:bookedBy rdf:resource="https://tourism-onto.org/ont#ahmad"/>
-        <tour:hasAccomodation rdf:resource="https://tourism-onto.org/ont#royalspeak"/>
-        <tour:hasTicket rdf:resource="https://tourism-onto.org/ont#airblue"/>
-        <tour:hasTransport rdf:resource="https://tourism-onto.org/ont#airblue"/>
-        <rdfs:comment>Reservation 001</rdfs:comment>
-        <rdfs:label>Res001</rdfs:label>
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#MountainTop">
+        <rdf:type rdf:resource="http://schema.org/Mountain"/>
+        <rdfs:comment>Mushk Puri Top</rdfs:comment>
     </NamedIndividual>
     
 
 
-    <!-- https://tourism-onto.org/ont#Res_02 -->
+    <!-- https://tourism-onto.org/ont#MuseumTicket -->
 
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#Res_02">
-        <rdf:type rdf:resource="http://schema.org/Reservation"/>
-        <rdfs:comment>Reservation 002</rdfs:comment>
-        <rdfs:label>Res002</rdfs:label>
-    </NamedIndividual>
-    
-
-
-    <!-- https://tourism-onto.org/ont#agency_rating -->
-
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#agency_rating">
-        <rdf:type rdf:resource="http://schema.org/Rating"/>
-        <schema1:ratingValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</schema1:ratingValue>
-        <rdfs:comment>Alpha Trails Ratings</rdfs:comment>
-        <rdfs:label>AgencyRating</rdfs:label>
-    </NamedIndividual>
-    
-
-
-    <!-- https://tourism-onto.org/ont#ahmad -->
-
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#ahmad">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48440"/>
-        <tour:guidedBy rdf:resource="https://tourism-onto.org/ont#ali"/>
-        <tour:hasAccomodation rdf:resource="https://tourism-onto.org/ont#royalspeak"/>
-        <tour:memberOf rdf:resource="https://tourism-onto.org/ont#GroupAlpha"/>
-        <tour:participatesIn rdf:resource="https://tourism-onto.org/ont#neelum_paragliding"/>
-        <schema1:givenName>Ahmed Raza</schema1:givenName>
-        <tour:nationality>Pakistani</tour:nationality>
-        <rdfs:comment>Pearl Continent Hotel</rdfs:comment>
-        <rdfs:label>Ahmad</rdfs:label>
-    </NamedIndividual>
-    
-
-
-    <!-- https://tourism-onto.org/ont#air-ticket -->
-
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#air-ticket">
-        <rdf:type rdf:resource="http://schema.org/Ticket"/>
-        <schema1:price rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25000</schema1:price>
-        <rdfs:comment>Air Ticket</rdfs:comment>
-        <rdfs:label>AirTicket</rdfs:label>
-    </NamedIndividual>
-    
-
-
-    <!-- https://tourism-onto.org/ont#airblue -->
-
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#airblue">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ENVO_03501349"/>
-        <tour:requiresTicket rdf:resource="https://tourism-onto.org/ont#air-ticket"/>
-        <rdfs:comment>AirBlue</rdfs:comment>
-        <rdfs:label>AirBlue</rdfs:label>
-    </NamedIndividual>
-    
-
-
-    <!-- https://tourism-onto.org/ont#ali -->
-
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#ali">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OCCO_39701100"/>
-        <tour:worksFor rdf:resource="https://tourism-onto.org/ont#trails"/>
-        <schema1:givenName>Ali Amjad</schema1:givenName>
-        <tour:language>Urdu , English, Punjabi</tour:language>
-        <rdfs:comment>Ali</rdfs:comment>
-        <rdfs:label>Ali</rdfs:label>
-    </NamedIndividual>
-    
-
-
-    <!-- https://tourism-onto.org/ont#alphapolicy -->
-
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#alphapolicy">
-        <rdf:type rdf:resource="http://purl.org/dc/terms/Policy"/>
-        <tour:isPolicyOf rdf:resource="https://tourism-onto.org/ont#trails"/>
-        <schema1:description>Standard AlphaTrails Operating Policy</schema1:description>
-        <rdfs:comment>Alpha Trails Policy</rdfs:comment>
-        <rdfs:label>AlphaPolicy</rdfs:label>
-    </NamedIndividual>
-    
-
-
-    <!-- https://tourism-onto.org/ont#ayesha -->
-
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#ayesha">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48440"/>
-        <tour:guidedBy rdf:resource="https://tourism-onto.org/ont#ali"/>
-        <tour:hasAccomodation rdf:resource="https://tourism-onto.org/ont#royalspeak"/>
-        <tour:memberOf rdf:resource="https://tourism-onto.org/ont#GroupAlpha"/>
-        <tour:participatesIn rdf:resource="https://tourism-onto.org/ont#neelum_paragliding"/>
-        <schema1:givenName>Ayesha Noor</schema1:givenName>
-        <tour:nationality>Pakistani</tour:nationality>
-        <rdfs:comment>Ayesha</rdfs:comment>
-        <rdfs:label>Ayesha</rdfs:label>
-    </NamedIndividual>
-    
-
-
-    <!-- https://tourism-onto.org/ont#basant -->
-
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#basant">
-        <rdf:type rdf:resource="http://schema.org/Festival"/>
-        <tour:organizedBy rdf:resource="https://tourism-onto.org/ont#CulturalEventsOrganization"/>
-        <tour:takesPlaceIn rdf:resource="https://tourism-onto.org/ont#LHR"/>
-        <schema1:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1005</schema1:identifier>
-        <schema1:isAccessibleForFree>yes</schema1:isAccessibleForFree>
-        <schema1:openingHours rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-03T10:00:00</schema1:openingHours>
-        <schema1:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-03T10:00:00</schema1:startDate>
-        <rdfs:comment>Basant Festival</rdfs:comment>
-        <rdfs:label>Basant</rdfs:label>
-    </NamedIndividual>
-    
-
-
-    <!-- https://tourism-onto.org/ont#bilal -->
-
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#bilal">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48440"/>
-        <tour:guidedBy rdf:resource="https://tourism-onto.org/ont#ali"/>
-        <tour:hasAccomodation rdf:resource="https://tourism-onto.org/ont#royalspeak"/>
-        <tour:memberOf rdf:resource="https://tourism-onto.org/ont#GroupAlpha"/>
-        <tour:participatesIn rdf:resource="https://tourism-onto.org/ont#neelum_paragliding"/>
-        <schema1:givenName>Bilal Abbas</schema1:givenName>
-        <tour:nationality>Pakistani</tour:nationality>
-        <rdfs:comment>Bilal</rdfs:comment>
-        <rdfs:label>Bilal</rdfs:label>
-    </NamedIndividual>
-    
-
-
-    <!-- https://tourism-onto.org/ont#bus-ticket -->
-
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#bus-ticket">
-        <rdf:type rdf:resource="http://schema.org/Ticket"/>
-        <schema1:price rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">540</schema1:price>
-        <rdfs:comment>Bus Ticket</rdfs:comment>
-        <rdfs:label>BusTicket</rdfs:label>
-    </NamedIndividual>
-    
-
-
-    <!-- https://tourism-onto.org/ont#clifton -->
-
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#clifton">
-        <rdf:type rdf:resource="http://schema.org/Beach"/>
-        <rdfs:comment>Clifton</rdfs:comment>
-        <rdfs:label>CliftonBeach</rdfs:label>
-    </NamedIndividual>
-    
-
-
-    <!-- https://tourism-onto.org/ont#cruise -->
-
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#cruise">
-        <rdf:type rdf:resource="http://snomed.info/id/224673002"/>
-        <rdfs:comment>Oceanic Cruise</rdfs:comment>
-        <rdfs:label>Cruise</rdfs:label>
-    </NamedIndividual>
-    
-
-
-    <!-- https://tourism-onto.org/ont#daewoo -->
-
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#daewoo">
-        <rdf:type rdf:resource="http://schema.org/BusOrCoach"/>
-        <rdfs:comment>Daewoo Express</rdfs:comment>
-        <rdfs:label>Daewoo</rdfs:label>
-    </NamedIndividual>
-    
-
-
-    <!-- https://tourism-onto.org/ont#folkdance -->
-
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#folkdance">
-        <rdf:type rdf:resource="http://schema.org/PerformingArtsEvent"/>
-        <tour:organizedBy rdf:resource="https://tourism-onto.org/ont#CulturalEventsOrganization"/>
-        <tour:takesPlaceIn rdf:resource="https://tourism-onto.org/ont#LHR"/>
-        <schema1:name>Cultural Folk Dance Show</schema1:name>
-        <tour:duration>2 hrs</tour:duration>
-        <rdfs:comment>Folk Dance Show</rdfs:comment>
-        <rdfs:label>FolkDance</rdfs:label>
-    </NamedIndividual>
-    
-
-
-    <!-- https://tourism-onto.org/ont#green -->
-
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#green">
-        <rdf:type rdf:resource="http://snomed.info/id/257611004"/>
-        <rdfs:comment>Green Farmhouse</rdfs:comment>
-        <rdfs:label>Green</rdfs:label>
-    </NamedIndividual>
-    
-
-
-    <!-- https://tourism-onto.org/ont#karachiscuba -->
-
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#karachiscuba">
-        <rdf:type rdf:resource="http://snomed.info/id/75335000"/>
-        <tour:organizedBy rdf:resource="https://tourism-onto.org/ont#trails"/>
-        <tour:takesPlaceIn rdf:resource="https://tourism-onto.org/ont#karachiscuba"/>
-        <schema1:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1004</schema1:identifier>
-        <schema1:name>Neelum Lake Scuba Diving</schema1:name>
-        <schema1:requiredMinAge rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18</schema1:requiredMinAge>
-        <schema1:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-06T08:00:00</schema1:startDate>
-        <rdfs:comment>Karachi Scuba Diving Center</rdfs:comment>
-        <rdfs:label>KarachiScuba</rdfs:label>
-    </NamedIndividual>
-    
-
-
-    <!-- https://tourism-onto.org/ont#khanpur -->
-
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#khanpur">
-        <rdf:type rdf:resource="http://snomed.info/id/102395001"/>
-        <tour:organizedBy rdf:resource="https://tourism-onto.org/ont#trails"/>
-        <tour:requiresTicket rdf:resource="https://tourism-onto.org/ont#pg-ticket"/>
-        <tour:takesPlaceIn rdf:resource="https://tourism-onto.org/ont#khanpur"/>
-        <schema1:name>Aerial Joy Ride</schema1:name>
-        <schema1:requiredMinAge rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16</schema1:requiredMinAge>
-        <tour:duration>3 Hours</tour:duration>
-        <rdfs:comment>Khanpur Dam Paragliding</rdfs:comment>
-        <rdfs:label>Khanpur</rdfs:label>
-    </NamedIndividual>
-    
-
-
-    <!-- https://tourism-onto.org/ont#khoj -->
-
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#khoj">
-        <rdf:type rdf:resource="http://schema.org/Resort"/>
-        <tour:hasRating rdf:resource="https://tourism-onto.org/ont#resort_rating"/>
-        <tour:hasReview rdf:resource="https://tourism-onto.org/ont#resort-review"/>
-        <schema1:name>Khoj Bliss Resort</schema1:name>
-        <schema1:numberOfRooms rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</schema1:numberOfRooms>
-        <schema1:starRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</schema1:starRating>
-        <rdfs:comment>Khoj Resort</rdfs:comment>
-        <rdfs:label>KhojResort</rdfs:label>
-    </NamedIndividual>
-    
-
-
-    <!-- https://tourism-onto.org/ont#laiba -->
-
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#laiba">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48440"/>
-        <tour:guidedBy rdf:resource="https://tourism-onto.org/ont#ali"/>
-        <tour:hasAccomodation rdf:resource="https://tourism-onto.org/ont#royalspeak"/>
-        <tour:memberOf rdf:resource="https://tourism-onto.org/ont#GroupAlpha"/>
-        <tour:participatesIn rdf:resource="https://tourism-onto.org/ont#neelum_paragliding"/>
-        <schema1:givenName>Laiba Elahi</schema1:givenName>
-        <tour:nationality>Pakistani</tour:nationality>
-        <rdfs:comment>Laiba</rdfs:comment>
-        <rdfs:label>Laiba</rdfs:label>
-    </NamedIndividual>
-    
-
-
-    <!-- https://tourism-onto.org/ont#lhrfest -->
-
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#lhrfest">
-        <rdf:type rdf:resource="http://schema.org/FoodEvent"/>
-        <rdfs:comment>Lahore Food Fest</rdfs:comment>
-        <rdfs:label>LahoreFest</rdfs:label>
-    </NamedIndividual>
-    
-
-
-    <!-- https://tourism-onto.org/ont#lhrhostel -->
-
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#lhrhostel">
-        <rdf:type rdf:resource="http://schema.org/Hostel"/>
-        <rdfs:comment>Lahore Hostel</rdfs:comment>
-        <rdfs:label>LahoreHostel</rdfs:label>
-    </NamedIndividual>
-    
-
-
-    <!-- https://tourism-onto.org/ont#lhrmuseum -->
-
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#lhrmuseum">
-        <rdf:type rdf:resource="http://schema.org/Museum"/>
-        <tour:partOf rdf:resource="https://tourism-onto.org/ont#LHR"/>
-        <tour:requiresTicket rdf:resource="https://tourism-onto.org/ont#museum-ticket"/>
-        <schema1:name>Lahore Museum</schema1:name>
-        <schema1:openingHours>09:00-17:00</schema1:openingHours>
-        <rdfs:comment>Lahore Museum</rdfs:comment>
-        <rdfs:label>LahoreMuseum</rdfs:label>
-    </NamedIndividual>
-    
-
-
-    <!-- https://tourism-onto.org/ont#lhrzoo -->
-
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#lhrzoo">
-        <rdf:type rdf:resource="http://schema.org/Zoo"/>
-        <rdfs:comment>Lahore Zoo</rdfs:comment>
-        <rdfs:label>LahoreZoo</rdfs:label>
-    </NamedIndividual>
-    
-
-
-    <!-- https://tourism-onto.org/ont#margalla -->
-
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#margalla">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C180667"/>
-        <tour:organizedBy rdf:resource="https://tourism-onto.org/ont#trails"/>
-        <tour:takesPlaceIn rdf:resource="https://tourism-onto.org/ont#margalla"/>
-        <schema1:name>Margalla Mountain Trek</schema1:name>
-        <tour:duration>12 hrs</tour:duration>
-        <rdfs:comment>Margalla Hills</rdfs:comment>
-        <rdfs:label>MargallaTrek</rdfs:label>
-    </NamedIndividual>
-    
-
-
-    <!-- https://tourism-onto.org/ont#marinelife -->
-
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#marinelife">
-        <rdf:type rdf:resource="http://schema.org/Aquarium"/>
-        <rdfs:comment>Marine Life Gallery</rdfs:comment>
-        <rdfs:label>MarineLife</rdfs:label>
-    </NamedIndividual>
-    
-
-
-    <!-- https://tourism-onto.org/ont#masjid -->
-
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#masjid">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GSSO_008167"/>
-        <rdfs:comment>Badshahi Masjid</rdfs:comment>
-        <rdfs:label>Masjid</rdfs:label>
-    </NamedIndividual>
-    
-
-
-    <!-- https://tourism-onto.org/ont#museum-ticket -->
-
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#museum-ticket">
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#MuseumTicket">
         <rdf:type rdf:resource="http://schema.org/Ticket"/>
         <rdfs:comment>Museum Ticket</rdfs:comment>
-        <rdfs:label>MuseumTicket</rdfs:label>
     </NamedIndividual>
     
 
 
-    <!-- https://tourism-onto.org/ont#neelum_paragliding -->
+    <!-- https://tourism-onto.org/ont#NeelumParagliding -->
 
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#neelum_paragliding">
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#NeelumParagliding">
         <rdf:type rdf:resource="http://snomed.info/id/102395001"/>
-        <tour:takesPlaceIn rdf:resource="https://tourism-onto.org/ont#valley"/>
+        <tour:takesPlaceIn rdf:resource="https://tourism-onto.org/ont#NeelumValley"/>
         <rdfs:comment>Neelum ParaGliding</rdfs:comment>
-        <rdfs:label>NeelumParaGliding</rdfs:label>
     </NamedIndividual>
     
 
 
-    <!-- https://tourism-onto.org/ont#pakrailway -->
+    <!-- https://tourism-onto.org/ont#NeelumValley -->
 
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#pakrailway">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ENVO_03501107"/>
-        <rdfs:comment>Pakistan Railway</rdfs:comment>
-        <rdfs:label>PakRailway</rdfs:label>
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#NeelumValley">
+        <rdf:type rdf:resource="http://schema.org/Mountain"/>
+        <schema1:name>Neelum Valley</schema1:name>
+        <rdfs:comment>Neelam Valley</rdfs:comment>
     </NamedIndividual>
     
 
 
-    <!-- https://tourism-onto.org/ont#pc -->
+    <!-- https://tourism-onto.org/ont#PCHotel -->
 
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#pc">
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#PCHotel">
         <rdf:type rdf:resource="http://schema.org/Hotel"/>
-        <tour:hasRating rdf:resource="https://tourism-onto.org/ont#pc_rating"/>
-        <tour:hasReview rdf:resource="https://tourism-onto.org/ont#pc-review"/>
+        <tour:hasRating rdf:resource="https://tourism-onto.org/ont#RatingPC"/>
+        <tour:hasReview rdf:resource="https://tourism-onto.org/ont#ReviewPC"/>
         <schema1:name>Pearl Continental Lahore</schema1:name>
         <schema1:numberOfRooms rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">350</schema1:numberOfRooms>
         <schema1:starRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</schema1:starRating>
         <rdfs:comment>PC Hotel</rdfs:comment>
-        <rdfs:label>PCHotel</rdfs:label>
     </NamedIndividual>
     
 
 
-    <!-- https://tourism-onto.org/ont#pc-review -->
+    <!-- https://tourism-onto.org/ont#PakRailway -->
 
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#pc-review">
-        <rdf:type rdf:resource="http://schema.org/Review"/>
-        <schema1:reviewBody>Excellent service and stunning views.</schema1:reviewBody>
-        <rdfs:label>ReviewPC</rdfs:label>
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#PakRailway">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ENVO_03501107"/>
+        <rdfs:comment>Pakistan Railway</rdfs:comment>
     </NamedIndividual>
     
 
 
-    <!-- https://tourism-onto.org/ont#pc_rating -->
+    <!-- https://tourism-onto.org/ont#PlaneTicket -->
 
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#pc_rating">
-        <rdf:type rdf:resource="http://schema.org/Rating"/>
-        <schema1:ratingValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</schema1:ratingValue>
-        <rdfs:comment>PC hotel ratings</rdfs:comment>
-        <rdfs:label>RatingPC</rdfs:label>
-    </NamedIndividual>
-    
-
-
-    <!-- https://tourism-onto.org/ont#pg-ticket -->
-
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#pg-ticket">
-        <rdf:type rdf:resource="http://schema.org/Ticket"/>
-        <rdfs:label>TIicketPG</rdfs:label>
-    </NamedIndividual>
-    
-
-
-    <!-- https://tourism-onto.org/ont#plane-ticket -->
-
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#plane-ticket">
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#PlaneTicket">
         <rdf:type rdf:resource="http://schema.org/Ticket"/>
         <rdfs:comment>Plane Ticket</rdfs:comment>
-        <rdfs:label>PlaneTicket</rdfs:label>
     </NamedIndividual>
     
 
 
-    <!-- https://tourism-onto.org/ont#rao -->
+    <!-- https://tourism-onto.org/ont#Rao -->
 
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#rao">
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#Rao">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48440"/>
-        <tour:guidedBy rdf:resource="https://tourism-onto.org/ont#ali"/>
-        <tour:hasAccomodation rdf:resource="https://tourism-onto.org/ont#royalspeak"/>
+        <tour:guidedBy rdf:resource="https://tourism-onto.org/ont#Ali"/>
+        <tour:hasAccomodation rdf:resource="https://tourism-onto.org/ont#RoyalsPeakHotel"/>
         <tour:memberOf rdf:resource="https://tourism-onto.org/ont#GroupAlpha"/>
-        <tour:participatesIn rdf:resource="https://tourism-onto.org/ont#neelum_paragliding"/>
+        <tour:participatesIn rdf:resource="https://tourism-onto.org/ont#NeelumParagliding"/>
         <schema1:givenName>Rao Talha</schema1:givenName>
         <tour:nationality>Pakistani</tour:nationality>
         <rdfs:comment>Rao Talha</rdfs:comment>
-        <rdfs:label>Rao</rdfs:label>
     </NamedIndividual>
     
 
 
-    <!-- https://tourism-onto.org/ont#resort-review -->
+    <!-- https://tourism-onto.org/ont#RatingPC -->
 
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#resort-review">
-        <rdf:type rdf:resource="http://schema.org/Review"/>
-        <rdfs:label>ResortReview</rdfs:label>
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#RatingPC">
+        <rdf:type rdf:resource="http://schema.org/Rating"/>
+        <schema1:ratingValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</schema1:ratingValue>
+        <rdfs:comment>PC hotel ratings</rdfs:comment>
     </NamedIndividual>
     
 
 
-    <!-- https://tourism-onto.org/ont#resort_rating -->
+    <!-- https://tourism-onto.org/ont#Res001 -->
 
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#resort_rating">
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#Res001">
+        <rdf:type rdf:resource="http://schema.org/Reservation"/>
+        <tour:bookedBy rdf:resource="https://tourism-onto.org/ont#Ahmad"/>
+        <tour:hasAccomodation rdf:resource="https://tourism-onto.org/ont#RoyalsPeakHotel"/>
+        <tour:hasTicket rdf:resource="https://tourism-onto.org/ont#AirBlue"/>
+        <tour:hasTransport rdf:resource="https://tourism-onto.org/ont#AirBlue"/>
+        <rdfs:comment>Reservation 001</rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- https://tourism-onto.org/ont#Res002 -->
+
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#Res002">
+        <rdf:type rdf:resource="http://schema.org/Reservation"/>
+        <rdfs:comment>Reservation 002</rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- https://tourism-onto.org/ont#ResortRating -->
+
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#ResortRating">
         <rdf:type rdf:resource="http://schema.org/Rating"/>
         <rdfs:comment>Resort Ratings</rdfs:comment>
-        <rdfs:label>ResortRating</rdfs:label>
     </NamedIndividual>
     
 
 
-    <!-- https://tourism-onto.org/ont#royalspeak -->
+    <!-- https://tourism-onto.org/ont#ResortReview -->
 
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#royalspeak">
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#ResortReview">
+        <rdf:type rdf:resource="http://schema.org/Review"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://tourism-onto.org/ont#ReviewPC -->
+
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#ReviewPC">
+        <rdf:type rdf:resource="http://schema.org/Review"/>
+        <schema1:reviewBody>Excellent service and stunning views.</schema1:reviewBody>
+    </NamedIndividual>
+    
+
+
+    <!-- https://tourism-onto.org/ont#RoyalsPeakHotel -->
+
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#RoyalsPeakHotel">
         <rdf:type rdf:resource="http://schema.org/Hotel"/>
         <rdfs:comment>The Royal Peaks Hotel</rdfs:comment>
-        <rdfs:label>RoyalsPeakHotel</rdfs:label>
     </NamedIndividual>
     
 
 
-    <!-- https://tourism-onto.org/ont#sara -->
+    <!-- https://tourism-onto.org/ont#Sara -->
 
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#sara">
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#Sara">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OCCO_41304100"/>
-        <schema1:broker rdf:resource="https://tourism-onto.org/ont#Res_01"/>
-        <tour:worksFor rdf:resource="https://tourism-onto.org/ont#trails"/>
+        <schema1:broker rdf:resource="https://tourism-onto.org/ont#Res001"/>
+        <tour:worksFor rdf:resource="https://tourism-onto.org/ont#AlphaTrailsAgency"/>
         <schema1:givenName>Sara Ahsan</schema1:givenName>
         <tour:language>English, Urdu,German</tour:language>
         <rdfs:comment>Sara</rdfs:comment>
-        <rdfs:label>Sara</rdfs:label>
     </NamedIndividual>
     
 
 
-    <!-- https://tourism-onto.org/ont#skydive -->
+    <!-- https://tourism-onto.org/ont#SkyDive -->
 
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#skydive">
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#SkyDive">
         <rdf:type rdf:resource="http://snomed.info/id/28895007"/>
         <rdfs:comment>Skydive Pakistan</rdfs:comment>
-        <rdfs:label>SkyDive</rdfs:label>
     </NamedIndividual>
     
 
 
-    <!-- https://tourism-onto.org/ont#suzopark -->
+    <!-- https://tourism-onto.org/ont#SuzoPark -->
 
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#suzopark">
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#SuzoPark">
         <rdf:type rdf:resource="http://snomed.info/id/20461001"/>
         <rdfs:comment>Suzo Water Park</rdfs:comment>
-        <rdfs:label>SuzoPark</rdfs:label>
     </NamedIndividual>
     
 
 
-    <!-- https://tourism-onto.org/ont#top -->
+    <!-- https://tourism-onto.org/ont#TicketPG -->
 
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#top">
-        <rdf:type rdf:resource="http://schema.org/Mountain"/>
-        <rdfs:comment>Mushk Puri Top</rdfs:comment>
-        <rdfs:label>MountainTop</rdfs:label>
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#TicketPG">
+        <rdf:type rdf:resource="http://schema.org/Ticket"/>
     </NamedIndividual>
     
 
 
-    <!-- https://tourism-onto.org/ont#trails -->
+    <!-- https://tourism-onto.org/ont#Umer -->
 
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#trails">
-        <rdf:type rdf:resource="http://schema.org/TravelAgency"/>
-        <schema1:makesOffer rdf:resource="https://tourism-onto.org/ont#khanpur"/>
-        <schema1:makesOffer rdf:resource="https://tourism-onto.org/ont#lhrfest"/>
-        <schema1:makesOffer rdf:resource="https://tourism-onto.org/ont#margalla"/>
-        <tour:hasEmployee rdf:resource="https://tourism-onto.org/ont#ali"/>
-        <tour:hasEmployee rdf:resource="https://tourism-onto.org/ont#sara"/>
-        <tour:hasRating rdf:resource="https://tourism-onto.org/ont#agency_rating"/>
-        <schema1:companyRegistration>REG-PKT-2018-00421</schema1:companyRegistration>
-        <schema1:description>Pakistan&apos;s leading adventure and cultural tour operator</schema1:description>
-        <schema1:email>info@alphatrails.pk</schema1:email>
-        <schema1:name>AlphaTrails Travel Agency</schema1:name>
-        <schema1:telephone>+92-42-1234567</schema1:telephone>
-        <rdfs:comment>Alpha Trails</rdfs:comment>
-        <rdfs:label>AlphaTrailsAgency</rdfs:label>
-    </NamedIndividual>
-    
-
-
-    <!-- https://tourism-onto.org/ont#umer -->
-
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#umer">
+    <NamedIndividual rdf:about="https://tourism-onto.org/ont#Umer">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48440"/>
-        <tour:guidedBy rdf:resource="https://tourism-onto.org/ont#ali"/>
-        <tour:participatesIn rdf:resource="https://tourism-onto.org/ont#karachiscuba"/>
+        <tour:guidedBy rdf:resource="https://tourism-onto.org/ont#Ali"/>
+        <tour:participatesIn rdf:resource="https://tourism-onto.org/ont#KarachiScuba"/>
         <schema1:givenName>Umer Farooq</schema1:givenName>
         <tour:nationality>Pakistani</tour:nationality>
         <rdfs:comment>Umer Farooq</rdfs:comment>
-        <rdfs:label>Umer</rdfs:label>
-    </NamedIndividual>
-    
-
-
-    <!-- https://tourism-onto.org/ont#valley -->
-
-    <NamedIndividual rdf:about="https://tourism-onto.org/ont#valley">
-        <rdf:type rdf:resource="http://schema.org/Mountain"/>
-        <schema1:name>Neelum Valley</schema1:name>
-        <rdfs:comment>Neelam Valley</rdfs:comment>
-        <rdfs:label>NeelumValley</rdfs:label>
     </NamedIndividual>
     <rdf:Description>
-        <tour:hasEmployee rdf:resource="https://tourism-onto.org/ont#sara"/>
+        <tour:hasEmployee rdf:resource="https://tourism-onto.org/ont#Sara"/>
     </rdf:Description>
     <rdf:Description>
-        <tour:worksFor rdf:resource="https://tourism-onto.org/ont#trails"/>
+        <tour:worksFor rdf:resource="https://tourism-onto.org/ont#AlphaTrailsAgency"/>
     </rdf:Description>
     <rdf:Description>
-        <tour:worksFor rdf:resource="https://tourism-onto.org/ont#trails"/>
+        <tour:worksFor rdf:resource="https://tourism-onto.org/ont#AlphaTrailsAgency"/>
     </rdf:Description>
     <rdf:Description>
-        <tour:worksFor rdf:resource="https://tourism-onto.org/ont#trails"/>
+        <tour:worksFor rdf:resource="https://tourism-onto.org/ont#AlphaTrailsAgency"/>
     </rdf:Description>
 </rdf:RDF>
 
